@@ -50,4 +50,6 @@ Exploratory data analysis was conducted in PowerBI
 
 ## Results
 
+## Key Takeaways
+
 
