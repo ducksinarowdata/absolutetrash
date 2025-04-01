@@ -13,13 +13,16 @@ mysociety operates fixmystreet.com, a website where citizens can report fly-tipp
 
 Very little data cleansing was required as the data has been aggregated and both organisations provide background information on their methodologies which show consistency in data collection and cleansing. 
 
-<img src="/assets/PQ - LA data - No null.png" alt="Power Query No Null">
+No nulls were detected in gov.uk data using Power Query's column profiling:
+<img src="/assets/PQ - LA data - No null.png" alt="Power Query No Null gov.uk">
 
+Some errors were detected in the total number of incidents for certain regions/years. There were 21 rows with errors of a total of 2930 rows of data (<1%), and so the errors were removed rather than replaced. The datset is large enough to be viable without these 21 rows:
+<img src="assets/PQ - error with total incidents - LA.png">
 
-![Histogram](assets/PQ FMS no null.png)
+However once resolved there were no further issues with the fixmystreet.com data:
+<img src="/assets/PQ FMS no null.png)" alt="Power Query No Null FMS">
 
-
-![Histogram](assets/PQ-error with total incidents-LA.png)
+Duplicated reports are not able to be identified from these aggregated datasets and so we are reliant on the methodologies used by mysociety and the UK government.
 
 ## EDA
 
