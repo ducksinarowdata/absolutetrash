@@ -5,7 +5,7 @@
 
 ## Data Cleaning
 
-[Monthly data was obtained and consolidated from mysociety.]([https://www.google.com](https://github.com/mysociety/fms_geographic_data/tree/master)
+[Monthly data was obtained and consolidated from mysociety.](https://www.google.com(https://github.com/mysociety/fms_geographic_data/tree/master)
 
 Very little data cleansing was required. 
 
