@@ -13,7 +13,7 @@ mysociety operates fixmystreet.com, a website where citizens can report fly-tipp
 
 Very little data cleansing was required as the data has been aggregated and both organisations provide background information on their methodologies which show consistency in data collection and cleansing. 
 
-![alt text](assets/PQ - LA data - No null.png)
+<img src="/assets/PQ - LA data - No null.png" alt="Power Query No Null">
 
 
 ![Histogram](assets/PQ FMS no null.png)
