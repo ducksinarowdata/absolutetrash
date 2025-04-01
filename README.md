@@ -9,7 +9,7 @@
 
 ## Time Series Analysis
 
-[ITime Series in Python](https://github.com/ducksinarowdata/absolutetrash/blob/main/Flytipping_Summative.ipynb)
+[Time Series in Python](https://github.com/ducksinarowdata/absolutetrash/blob/main/Flytipping_Summative.ipynb)
 
 [Images of TS graph]
 
