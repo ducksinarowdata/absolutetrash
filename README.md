@@ -11,9 +11,9 @@ mysociety operates fixmystreet.com, a website where citizens can report fly-tipp
 
 [Yearly data for fly-tippinf incidents across the UK was obtained from gov.uk] (https://www.gov.uk/government/statistics/fly-tipping-in-england).
 
-Very little data cleansing was required as the data has been aggregated and both organisations provide background information on their methodologies which show consistency in data collection and cleansing.
+Very little data cleansing was required as the data has been aggregated and both organisations provide background information on their methodologies which show consistency in data collection and cleansing. 
 
-![Histogram](assets/PQ - LA data - No null.png)
+![alt text](assets/PQ - LA data - No null.png)
 
 
 ![Histogram](assets/PQ FMS no null.png)
@@ -25,11 +25,7 @@ Very little data cleansing was required as the data has been aggregated and both
 
 Exploratory data analysis was conducted in PowerBI
 
-*
-![Histogram](assets/flytipping1.jpeg)
-*
-*
-*
+[Graphs]
 
 ## Time Series Analysis
 
