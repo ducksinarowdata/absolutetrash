@@ -23,7 +23,7 @@ Some errors were detected in the total number of incidents for certain regions/y
 
 However once resolved there were no further issues with the fixmystreet.com data:
 
-<img src="/assets/PQ FMS no null.png)" alt="Power Query No Null FMS">
+<img src="/assets/PQ FMS no null.png">
 
 Duplicated reports are not able to be identified from these aggregated datasets and so we are reliant on the methodologies used by mysociety and the UK government.
 
