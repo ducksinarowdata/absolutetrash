@@ -76,15 +76,30 @@ plt.show()
 ```
 <img src="/assets/fms_decomp.png">
 
-```
-```
-<img src="/assets/PQ FMS no null.png">
+* Finally, after the data is prepared, it is split into test and train datasets to begin predictive modelling.
 
 ```
-```
-<img src="/assets/PQ FMS no null.png">
+# Split data into train-test
+# We are going to train on the first months and test on the last 24 months
 
-[Images of TS graph]
+steps = 24 # predicting the final 24 months
+data_train = df_fms[:-steps]  
+
+data_test  = df_fms[-steps:]   # this sets data_test to be the last 24 values
+
+print(f"Train dates : {data_train.index.min()} --- {data_train.index.max()}  (n={len(data_train)})")
+print(f"Test dates  : {data_test.index.min()} --- {data_test.index.max()}  (n={len(data_test)})")
+
+# Plotting the test/train data
+fig, ax = plt.subplots(figsize=(7, 2.5))
+data_train['reports'].plot(ax=ax, label='train')
+data_test['reports'].plot(ax=ax, label='test')
+ax.legend();
+```
+The model shows the number of predicted reports of fly-tipping incidents for 2019-2020 and shows that reports are predicted to begin dropping in early 2020.
+
+<img src="/assets/fms_tt.png">
+
 
 ## Results
 
