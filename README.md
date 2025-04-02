@@ -37,20 +37,48 @@ Duplicated reports are not able to be identified from these aggregated datasets 
 
 Exploratory data analysis was conducted in PowerBI
 
-[Graphs]
+A comparison of the __gov.uk__ and __fixmystreet.com (FMS)__ data shows that whilst there are fewer reports in the FMS dataset, the shape of and trend in the data appears to correlate.
+
+<img src="/assets/pbi_bham.png">
 
 ## Time Series Analysis
 
-[Time Series in Python](https://github.com/ducksinarowdata/absolutetrash/blob/main/Flytipping_Summative.ipynb)
+[Time Series in Python Undertaken in Python](https://github.com/ducksinarowdata/absolutetrash/blob/main/Flytipping_Summative.ipynb)
+
+```
+# Defining a function that when called will output a line plot for us.
+# We will pass the dataframe, the x and y columns and a title
+
+def plot_df(df, x, y, title="", xlabel='Date', ylabel='Reports', dpi=100):
+
+    plt.figure(figsize=(16,5), dpi=dpi)
+    plt.plot(x, y, color='tab:red')
+    plt.gca().set(title=title, xlabel=xlabel, ylabel=ylabel)
+    plt.show()
+
+# Call the function we just created to plot the line graph of the values
+plot_df(df_fms, df_fms.index, y=df_fms.reports, title='Monthly Reports of Flytipping in Birmingham, UK (FMS')
+```
+<img src="/assets/fms_ts.png">
+
+```
+from statsmodels.tsa.seasonal import seasonal_decompose
+from dateutil.parser import parse
+
+result_add = seasonal_decompose(df_fms['reports'], model='additive', extrapolate_trend='freq')
+
+result_add.plot()
+plt.show()
+```
+<img src="/assets/fms_decomp.png">
 
 ```
 ```
+<img src="/assets/PQ FMS no null.png">
 
 ```
 ```
-
-```
-```
+<img src="/assets/PQ FMS no null.png">
 
 [Images of TS graph]
 
