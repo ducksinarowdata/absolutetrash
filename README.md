@@ -110,7 +110,7 @@ It is also possible to see that against other large cities in the UK (ppopulatio
 
 Nationally, the trend continues upwards for reported incidents:
 
-img src="/assets/pbi_national.png">
+<img src="/assets/pbi_national.png">
 
 ## Results, Takeaways and Conclusion
 
