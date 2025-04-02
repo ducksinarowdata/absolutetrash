@@ -19,6 +19,13 @@ The UK government publishes a wide variety of statistical data, fly-tipping data
 
 Very little data cleansing was required as the data has been aggregated and both organisations provide background information on their methodologies which show consistency in data collection and cleansing. 
 
+Data Cleaning covered:
+
+* Checking for duplicate rows
+* Checking for null values, removing rows with missing values
+* Checking for errors in values
+* Standardising date - ensuring 'date' column was formatted as mm/dd/yyyy (datetype) and 'reports' as a whole number (int64)
+
 No nulls were detected in gov.uk data using Power Query's column profiling:
 
 <img src="/assets/PQ - LA data - No null.png" alt="Power Query No Null gov.uk">
@@ -37,7 +44,7 @@ However once resolved there were no further issues with the fixmystreet.com data
 
 #### $${\color{blue}Figure 3}$$
 
-Duplicated reports are not able to be identified from these aggregated datasets and so we are reliant on the methodologies used by mysociety and the UK government.
+Duplicated reports are not able to be identified from these aggregated datasets and so we are reliant on the methodologies used by mysociety and the UK government. 
 
 ## EDA
 
