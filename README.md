@@ -48,13 +48,17 @@ Duplicated reports are not able to be identified from these aggregated datasets 
 
 ## EDA
 
-Exploratory data analysis was conducted in PowerBI
+Exploratory data analysis was conducted in PowerBI where the two different datasets could be brought into one model and viewed as a schema, where relationships could be made between related columns:
+
+<img src="/assets/pqschema.png"> 
+
+#### $${\color{blue}Figure 4}$$
 
 A comparison of the __gov.uk__ and __fixmystreet.com (FMS)__ data shows that whilst there are fewer reports in the FMS dataset, the shape of and trend in the data appears to correlate.
 
 <img src="/assets/pbi_bham.png">
 
-#### $${\color{blue}Figure 4}$$
+#### $${\color{blue}Figure 5}$$
 
 ## Time Series Analysis
 
@@ -80,7 +84,7 @@ plot_df(df_fms, df_fms.index, y=df_fms.reports, title='Monthly Reports of Flytip
 ```
 <img src="/assets/fms_ts.png">
 
-#### $${\color{blue}Figure 5}$$
+#### $${\color{blue}Figure 6}$$
 
 * Secondly, an additive composition is created to show a breakdown of the trend, seasonality and residuals in the data. This data shows both an upward trend and seasonality.
 
@@ -95,7 +99,7 @@ plt.show()
 ```
 <img src="/assets/fms_decomp.png">
 
-#### $${\color{blue}Figure 6}$$
+#### $${\color{blue}Figure 7}$$
 
 * Finally, after the data is prepared, it is split into test and train datasets to begin predictive modelling.
 
@@ -121,13 +125,13 @@ The model shows the number of predicted reports of fly-tipping incidents for 201
 
 <img src="/assets/fms_tt.png">
 
-#### $${\color{blue}Figure 7}$$
+#### $${\color{blue}Figure 8}$$
 
 Returning to Power BI (and __actual__, not predictive, data) we can see that at a local level, these predictions hold true:
 
 <img src="/assets/pbi_local.png">
 
-#### $${\color{blue}Figure 8}$$
+#### $${\color{blue}Figure 9}$$
 
 It is also possible to see that against other large cities in the UK (ppopulations approx. 500,000), Birmingham (with a population of 1m) does not have a high number of reports. We would expect that at double the size, the city may have double the reported number of incidents.
 
@@ -135,7 +139,7 @@ Nationally, the trend continues upwards for reported incidents:
 
 <img src="/assets/pbi_national.png">
 
-#### $${\color{blue}Figure 9}$$
+#### $${\color{blue}Figure 10}$$
 
 ## Results, Takeaways and Conclusion
 
