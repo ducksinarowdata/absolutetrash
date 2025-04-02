@@ -23,19 +23,19 @@ No nulls were detected in gov.uk data using Power Query's column profiling:
 
 <img src="/assets/PQ - LA data - No null.png" alt="Power Query No Null gov.uk">
 
-##### $${\color{blue}Figure 1}$$
+#### $${\color{blue}Figure 1}$$
 
 Some errors were detected in the total number of incidents for certain regions/years. There were 21 rows with errors of a total of 2930 rows of data (<1%), and so the errors were removed rather than replaced. The datset is large enough to be viable without these 21 rows:
 
 <img src="/assets/PQ - error with total incidents - LA.png">
 
-##### Figure 2
+#### $${\color{blue}Figure 2}$$
 
 However once resolved there were no further issues with the fixmystreet.com data:
 
 <img src="/assets/PQ FMS no null.png">
 
-##### Figure 3
+#### $${\color{blue}Figure 3}$$
 
 Duplicated reports are not able to be identified from these aggregated datasets and so we are reliant on the methodologies used by mysociety and the UK government.
 
@@ -47,7 +47,7 @@ A comparison of the __gov.uk__ and __fixmystreet.com (FMS)__ data shows that whi
 
 <img src="/assets/pbi_bham.png">
 
-##### Figure 4
+#### $${\color{blue}Figure 4}$$
 
 ## Time Series Analysis
 
@@ -73,7 +73,7 @@ plot_df(df_fms, df_fms.index, y=df_fms.reports, title='Monthly Reports of Flytip
 ```
 <img src="/assets/fms_ts.png">
 
-##### Figure 5
+#### $${\color{blue}Figure 5}$$
 
 * Secondly, an additive composition is created to show a breakdown of the trend, seasonality and residuals in the data. This data shows both an upward trend and seasonality.
 
@@ -88,7 +88,7 @@ plt.show()
 ```
 <img src="/assets/fms_decomp.png">
 
-##### Figure 6
+#### $${\color{blue}Figure 6}$$
 
 * Finally, after the data is prepared, it is split into test and train datasets to begin predictive modelling.
 
@@ -114,13 +114,13 @@ The model shows the number of predicted reports of fly-tipping incidents for 201
 
 <img src="/assets/fms_tt.png">
 
-##### Figure 7
+#### $${\color{blue}Figure 7}$$
 
 Returning to Power BI (and __actual__, not predictive, data) we can see that at a local level, these predictions hold true:
 
 <img src="/assets/pbi_local.png">
 
-##### Figure 8
+#### $${\color{blue}Figure 8}$$
 
 It is also possible to see that against other large cities in the UK (ppopulations approx. 500,000), Birmingham (with a population of 1m) does not have a high number of reports. We would expect that at double the size, the city may have double the reported number of incidents.
 
@@ -128,7 +128,7 @@ Nationally, the trend continues upwards for reported incidents:
 
 <img src="/assets/pbi_national.png">
 
-##### Figure 9
+#### $${\color{blue}Figure 9}$$
 
 ## Results, Takeaways and Conclusion
 
