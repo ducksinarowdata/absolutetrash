@@ -3,7 +3,7 @@
 ## An exploration of flytipping in Birmingham
 ![Histogram](assets/flytipping1.jpeg)
 
-Using publicly available datasets on fly-tipping I have conducted exploratory data analysis then built a time series analysis based on two datasets for incidents reported in Birmingham, and one dataset for all incidents reported nationally using Python. The data shows that fly-tipping has increased nationally, not just in Birmingham, although as a member of the community here I had anticipated that the anecdotal rise in fly-tipping incidents was a result of bin strikes. _ Expand on: Larger UK issue that needs tackling_
+Using publicly available datasets on fly-tipping I have conducted exploratory data analysis then built a time series analysis based on two datasets for incidents reported in Birmingham, and one dataset for all incidents reported nationally using Python. The data shows that fly-tipping has increased nationally, not just in Birmingham, although as a member of the community here I had anticipated that the anecdotal rise in fly-tipping incidents was a result of bin strikes. What the data reveals is that this is a UK-wide issue, and that an investigation into the root causes of fly-tipping will help us remedy the increase in reports.
 
 ## Data Sources
 
@@ -135,3 +135,4 @@ Nationally, the trend continues upwards for reported incidents:
 * Birmingham, relative to its size, does not have a statistically high number of reported fly-tipping incidents. Bin strikes do not appear to have had a lasting, adverse effect on the reported statistics.
 * In large cities, reported incidents appear to be trending down. This is counter to the national (UK) trend, where reported incidents are trending up.
 * Additional research and modelling of fly-tipping data to analyse other contributing factors (ie. the pandemic which occurred in 2020, where we see fly-tipping reports at a peak, and cuts to local authority spending) will give more insight into the complex causes of fly-tipping, and how these incidents might be mitigated or remedied.
+* Future analysis could also look at the population of a region or city versus number of reported insights, this will help draw out insight on what types of areas are most prone to fly-tipping.
