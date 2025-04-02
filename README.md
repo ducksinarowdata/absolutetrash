@@ -112,12 +112,8 @@ Nationally, the trend continues upwards for reported incidents:
 
 img src="/assets/pbi_national.png">
 
-## Results
+## Results, Takeaways and Conclusion
 
-Conclusion: Birmingham, considering its size, is not an outlier in terms of other UK cities. We can conclude that bin strikes do not appear to have a lasting, adverse effect on fly-tipping incidents. National data shows that over time fly-tipping has increased across the UK and further investigation into the causes would be beneficial to remedy this – possible causes to look at would be the effect of the pandemic (2020) and cuts to local authority funding. ![image](https://github.com/user-attachments/assets/db46da85-97d4-4407-aa9e-a3b4cf53b6e7)
-
-
-## Key Takeaways
-
-* Birmingham, relative to its size, does not have a statistically high number of reported fly-tipping incidents.
-* In large cities, 
+* Birmingham, relative to its size, does not have a statistically high number of reported fly-tipping incidents. Bin strikes do not appear to have had a lasting, adverse effect on the reported statistics.
+* In large cities, reported incidents appear to be trending down. This is counter to the national (UK) trend, where reported incidents are trending up.
+* Additional research and modelling of fly-tipping data to analyse other contributing factors (ie. the pandemic which occurred in 2020, where we see fly-tipping reports at a peak, and cuts to local authority spending) will give more insight into the complex causes of fly-tipping, and how these incidents might be mitigated or remedied.
