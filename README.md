@@ -23,7 +23,7 @@ No nulls were detected in gov.uk data using Power Query's column profiling:
 
 <img src="/assets/PQ - LA data - No null.png" alt="Power Query No Null gov.uk">
 
-##### Figure 1
+$${\color{blue}##### Figure 1}$$
 
 Some errors were detected in the total number of incidents for certain regions/years. There were 21 rows with errors of a total of 2930 rows of data (<1%), and so the errors were removed rather than replaced. The datset is large enough to be viable without these 21 rows:
 
