@@ -45,6 +45,8 @@ A comparison of the __gov.uk__ and __fixmystreet.com (FMS)__ data shows that whi
 
 [Time Series in Python Undertaken in Python](https://github.com/ducksinarowdata/absolutetrash/blob/main/Flytipping_Summative.ipynb)
 
+* Firstly, we visualise the FMS data as line graph
+
 ```
 # Defining a function that when called will output a line plot for us.
 # We will pass the dataframe, the x and y columns and a title
@@ -60,6 +62,8 @@ def plot_df(df, x, y, title="", xlabel='Date', ylabel='Reports', dpi=100):
 plot_df(df_fms, df_fms.index, y=df_fms.reports, title='Monthly Reports of Flytipping in Birmingham, UK (FMS')
 ```
 <img src="/assets/fms_ts.png">
+
+* Secondly, an additive composition is created to show a breakdown of the trend, seasonality and residuals in the data. This data shows both an upward trend and seasonality.
 
 ```
 from statsmodels.tsa.seasonal import seasonal_decompose
