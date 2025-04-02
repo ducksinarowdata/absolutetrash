@@ -43,7 +43,7 @@ A comparison of the __gov.uk__ and __fixmystreet.com (FMS)__ data shows that whi
 
 ## Time Series Analysis
 
-[Time Series in Python Undertaken in Python](https://github.com/ducksinarowdata/absolutetrash/blob/main/Flytipping_Summative.ipynb)
+[The full code for the Time Series analysis undertaken in Pythn can be found here, key steps are illustrated below](https://github.com/ducksinarowdata/absolutetrash/blob/main/Flytipping_Summative.ipynb)
 
 * Firstly, we visualise the FMS data as line graph
 
