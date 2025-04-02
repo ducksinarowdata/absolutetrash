@@ -102,9 +102,22 @@ The model shows the number of predicted reports of fly-tipping incidents for 201
 
 <img src="/assets/fms_tt.png">
 
+Returning to Power BI (and __actual__, not predictive, data) we can see that at a local level, these predictions hold true:
+
+<img src="/assets/pbi_local.png">
+
+It is also possible to see that against other large cities in the UK (ppopulations approx. 500,000), Birmingham (with a population of 1m) does not have a high number of reports. We would expect that at double the size, the city may have double the reported number of incidents.
+
+Nationally, the trend continues upwards for reported incidents:
+
+img src="/assets/pbi_national.png">
 
 ## Results
 
+Conclusion: Birmingham, considering its size, is not an outlier in terms of other UK cities. We can conclude that bin strikes do not appear to have a lasting, adverse effect on fly-tipping incidents. National data shows that over time fly-tipping has increased across the UK and further investigation into the causes would be beneficial to remedy this – possible causes to look at would be the effect of the pandemic (2020) and cuts to local authority funding. ![image](https://github.com/user-attachments/assets/db46da85-97d4-4407-aa9e-a3b4cf53b6e7)
+
+
 ## Key Takeaways
 
-
+* Birmingham, relative to its size, does not have a statistically high number of reported fly-tipping incidents.
+* In large cities, 
